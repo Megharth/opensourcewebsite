@@ -1,6 +1,11 @@
 import App from './App.js';
 import HomeView from './views/home.js'
 import RoadmapView from './views/road-map.js'
+import DonateView from './views/donate.js'
+import ContributionView from './views/contribution.js'
+import TechnologyView from './views/technologies.js'
+
+
 
 const routes = [
   {
@@ -10,6 +15,18 @@ const routes = [
   {
     path: '/road-map',
     component: RoadmapView
+  },
+  {
+    path: '/donate',
+    component: DonateView
+  },
+  {
+    path: '/contribution',
+    component: ContributionView
+  },
+  {
+    path: '/technologies',
+    component: TechnologyView
   }
 ]
 
