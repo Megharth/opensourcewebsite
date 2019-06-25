@@ -33,3 +33,7 @@ a, a:hover, a:link, a:visited {
 .blockquote {
   width: 100%;
 }
+
+.navbar-title a{
+  color: black;
+}

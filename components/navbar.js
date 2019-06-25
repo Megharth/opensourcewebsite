@@ -7,7 +7,7 @@ export default {
   },
   template: `
   <v-toolbar height="50" flat color="primary" id="toolbar">
-    <v-toolbar-title class="title">OpenSourceWebsite</v-toolbar-title>
+    <v-toolbar-title class="title navbar-title"><router-link to="/">OpenSourceWebsite</router-link></v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items>
       <modalComponent isSignup></modalComponent>

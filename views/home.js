@@ -90,6 +90,22 @@ export default {
           "name": "Social collaboration",
           "url": "https://en.wikipedia.org/wiki/Social_collaboration"
         },
+        {
+          "name": "Collaborative innovation network",
+          "url": "https://en.wikipedia.org/wiki/Collaborative_innovation_network"
+        },
+        {
+          "name": "Crowdcasting",
+          "url": "https://en.wikipedia.org/wiki/Crowdcasting"
+        },
+        {
+          "name": "Open research",
+          "url": "https://en.wikipedia.org/wiki/Open_research"
+        },
+        {
+          "name": "Crowdfixing",
+          "url": "https://en.wikipedia.org/wiki/Crowdfixing"
+        }
       ],
       message: "OpenSourceWebsite (OSW) is an open source website for global online social community. The Website is managed by users. The Website will look like and what functions it will have depends on users' decisions. The Website is updated after each code change. So everyone can influence how the Website works.\n" +
         "\n" +
