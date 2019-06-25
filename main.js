@@ -4,8 +4,8 @@ import RoadmapView from './views/road-map.js'
 import DonateView from './views/donate.js'
 import ContributionView from './views/contribution.js'
 import TechnologyView from './views/technologies.js'
-
-
+import TermsView from './views/terms-of-use.js'
+import PolicyView from './views/privacy-policy.js'
 
 const routes = [
   {
@@ -27,6 +27,14 @@ const routes = [
   {
     path: '/technologies',
     component: TechnologyView
+  },
+  {
+    path: '/terms',
+    component: TermsView
+  },
+  {
+    path: '/policy',
+    component: PolicyView
   }
 ]
 

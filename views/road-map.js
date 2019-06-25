@@ -95,16 +95,16 @@ export default {
     }
   },
   template: `
-  <div>
-    <div class="display-1 my-3">Road Map</div>
-    <v-card class="px-4 py-3 subheading">
-      <p>OpenSourceWebsite (OSW) means that the users are the protagonists of the entire Website. The Website is totally free, and it gives to everyone the possibility to influence in a lot of different ways its development. Through the use of e-Vote system, each user has the possibility to vote electronically for the features of the Website, with high levels of anonymity, safety and the congruity of personal preferences.</p>
-      <div v-for="data in data">
-        <div class="headline py-2" v-if="data.heading">{{ data.heading }}</div>
-        <div class="title py-1">{{ data.title}}</div>
-        <p>{{ data.content}}</p>
-      </div>
-    </v-card>
-  </div>
+    <div>
+      <div class="display-1 my-3">Road Map</div>
+      <v-card class="px-4 py-3 subheading">
+        <p>OpenSourceWebsite (OSW) means that the users are the protagonists of the entire Website. The Website is totally free, and it gives to everyone the possibility to influence in a lot of different ways its development. Through the use of e-Vote system, each user has the possibility to vote electronically for the features of the Website, with high levels of anonymity, safety and the congruity of personal preferences.</p>
+        <div v-for="data in data">
+          <div class="headline py-2" v-if="data.heading">{{ data.heading }}</div>
+          <div class="title py-1">{{ data.title}}</div>
+          <p>{{ data.content}}</p>
+        </div>
+      </v-card>
+    </div>
   `
 }

@@ -1,7 +1,35 @@
+html{ height:100%; }
+body {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 100px; /* Set same as footer's height */
+}
+
+
 a {
   text-decoration: none;
 }
 
 a, a:hover, a:link, a:visited {
-  color: #0056B3;
+  color: #0067f2;
+}
+
+.v-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.blockquote {
+  width: 100%;
 }
