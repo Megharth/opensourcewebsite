@@ -13,7 +13,7 @@ export default {
     console.log(this.isSignup)
   },
   template: `
-    <v-dialog v-model="dialog" max-width="600" attach="#home">
+    <v-dialog v-model="dialog" max-width="600" attach="#app">
       <template v-slot:activator="{ on }">
         <v-btn flat v-on="on" class="text-capitalize subheading" v-if="isSignup">Signup</v-btn>
         <v-btn flat v-on="on" class="text-capitalize subheading" v-if="!isSignup">Login</v-btn>

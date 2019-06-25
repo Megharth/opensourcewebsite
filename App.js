@@ -12,8 +12,8 @@ export default {
   template: `
     <div>
     <navbarComponent></navbarComponent>
-      <v-container fluid>
-        <Home id="home"></Home>
+      <v-container fluid id="app">
+        <router-view></router-view>
       </v-container>
       <footerComponent></footerComponent>
     </div>

@@ -1,5 +1,5 @@
 export default {
-  name: 'homeComponent',
+  name: 'homeView',
   data() {
     return {
       visionMission: [
